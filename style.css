@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Rubik&family=Square+Peg&display=swap');
+
+body{
+    background-color: rgb(206, 235, 235);
+    font-family: 'Heebo', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    height: 60px;
+    background-color: rgb(202, 132, 132);
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin: 0px 12px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navbar ul li{
+    padding: 12px;
+    cursor: pointer;
+}
+.bottom{
+    position: sticky;
+    height: 55px;
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding: 24px 0;
+}
+.container{
+    min-height: 78vh;
+    display: flex;
+    width: 70%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin:  10px auto;
+    padding: 5px 12px;
+    background: url("hrithik.jpg") center center/cover no-repeat;
+    background-size: 67rem 50rem;
+    height: 800px;
+}
+#myprogressbar{
+    width: 78%;
+    cursor: pointer;
+    
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songitems{
+    height: 38px;
+    display: flex;
+    background-color:rgb(119, 81, 81);
+    width:115%;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 12px 0;
+}
+.songitems img{
+    height: 50px;
+    width: 50px;
+    margin: 0 6px;
+    border-radius: 28px;
+}
+.timestamp{
+    margin: 0px 12px;
+    cursor: pointer;
+}
+.songinfo{
+    height: 75px;
+    position: absolute;
+    left: 4vw;
+}
+.songinfo img{
+    height: 48px;
+    width: 78px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
